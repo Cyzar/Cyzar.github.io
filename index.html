@@ -11,8 +11,55 @@
     <li>Let it take you down the block?</li>
     <li>And felt the wind rush through your hair?</li>
 </ul>
-<h2>If you have</h2>
+
 <h1>Then Fruit Racing is for you!</h1>
 <p>Instead of dangerous race cars, why not try fruit racing instead?</p>
+<h2>Look at this pineapple!</h2>
+<img src="http://s3.freefoto.com/images/09/08/09_08_58_web.jpg" alt="Mountain View" style="width:400px;height:600px;">
+<h2>Don't you wanna take this baby out for a spin?</h2>
+<h1>Fill out the form below and book your fruit race today!</h1>
+<form name="adventure" action="https://httpbin.org/post" method="post">
+  <fieldset>
+    <div>
+      <label>Your Name:</label>
+      <input type="text" name="name">
+    </div>
+
+    <div>
+      <label>Email:</label>
+      <input type="email" name="email">
+    </div>
+
+  
+  </fieldset>
+
+  <fieldset>
+    <div>
+      <label>Name your fruit!</label>
+      <input type="text" name="adv-name" placeholder="Pineapple Parade">
+    </div>
+
+    <div>
+      <label>Type of fruit</label>
+      <select name="fruit">
+        <option value="banana">Banana</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="pear">Pear</option>
+      </select>
+    </div>
+
+    <div>    
+      <label>Choose a date:</label>
+      <input type="date" name="date">
+    </div>
+
+    <div>
+      <input type="checkbox" name="cb-agree" value="agree">
+      I am willing to race a fruit and accept all liabilities
+    </div>
+  </fieldset>
+  
+  <button type="submit">Let's do this!</button>
+</form>
 </body>
 </html>
